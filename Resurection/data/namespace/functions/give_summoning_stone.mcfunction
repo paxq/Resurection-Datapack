@@ -1,0 +1,4 @@
+recipe take @s namespace:summoning_stone_recipe
+advancement revoke @s only namespace:summoning_stone_adv
+clear @s minecraft:knowledge_book
+give @s minecraft:warden_spawn_egg{EntityTag:{id:"minecraft:warden",CustomName:"\"Voiceiferator\"",CustomNameVisible:1,CanPickUpLoot:1b,Health:250,Attributes:[{Name:"generic.maxHealth",Base:500},{Name:"generic.followRange",Base:180},{Name:"generic.knockbackResistance",Base:1f},{Name:"generic.movementSpeed",Base:4.5f},{Name:"generic.attackDamage",Base:20}],Fire:0,HandDropChances:[2F,2F],HandItems:[{id:"minecraft:sculk_shrieker",tag:{display:{Name:'{"text":"Shrieker"}',Lore:['{"text":"The one ingredient to an item of complete power."}']}},Count:1},{}],ActiveEffects:[{Id:1,Amplifier:0,Duration:2147483647}]}}

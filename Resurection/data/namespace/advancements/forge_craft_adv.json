@@ -1,0 +1,14 @@
+{
+  "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+  "criteria": {
+      "Recipe": {
+          "trigger": "minecraft:recipe_unlocked",
+          "conditions": {
+              "recipe": "namespace:forge_craft_recipe"
+          }
+      }
+  },
+  "rewards": {
+      "function": "namespace:custom_blocks/forge/give"
+  }
+}

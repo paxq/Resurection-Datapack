@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "E",
+        "P"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:ender_eye"
+        },
+        "E": {
+            "item": "minecraft:experience_bottle"
+        },
+        "P": {
+            "item": "minecraft:phantom_membrane"
+        }
+    },
+    "result": {
+        "item": "minecraft:phantom_spawn_egg",
+        "count": 1
+    }
+}
